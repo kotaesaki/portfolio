@@ -515,8 +515,6 @@ h2{
 }
 
 figure{
-  width: 100%;
-  height: auto;
   margin: -1% 0;
   float: left;
   overflow: hidden;
@@ -525,12 +523,12 @@ figure{
 
 
 figure figcaption {
-  padding: 2em;
+  padding-top: 200px;
+  padding-right: : 20px: 
   color: #0f0f0f;
   text-transform: uppercase;
   font-size: 1.25em;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  
 }
 
 figure figcaption::before,
@@ -559,6 +557,7 @@ figure figcaption > a {
 figure h3 {
   word-spacing: -0.15em;
   font-weight: 300;
+  color: #00bbdd;
 }
 
 figure h3 span {
@@ -567,7 +566,6 @@ figure h3 span {
 
 figure h3,
 figure p {
-  margin: 0;
 }
 
 figure p {
@@ -582,7 +580,6 @@ figure p {
 
 
 figure.effect-bubba {
-background-color: #fff;
 }
 
 figure.effect-bubba img {
@@ -617,8 +614,7 @@ figure.effect-bubba figcaption::before {
 }
 
 figure.effect-bubba figcaption::after {
-  border-right: 1px solid #fff;
-  border-left: 1px solid #fff;
+
   -webkit-transform: scale(1,0);
   transform: scale(1,0);
 }
@@ -942,7 +938,14 @@ figure.effect-bubba:hover p {
   transform: rotate(0deg);
 
 }
-
+figure figcaption {
+  padding-top: 25%;
+  padding-right: : 20px: 
+  color: #0f0f0f;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  
+}
 
 
 
