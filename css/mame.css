@@ -526,7 +526,7 @@ figure{
 
 figure figcaption {
   padding: 2em;
-  color: #fff;
+  color: #0f0f0f;
   text-transform: uppercase;
   font-size: 1.25em;
   -webkit-backface-visibility: hidden;
@@ -689,6 +689,8 @@ figure.effect-bubba:hover p {
 
 
 
+
+
 .button {
   background: #fff;
   display: inline-block;
@@ -803,9 +805,22 @@ figure.effect-bubba:hover p {
 }
 
 
+.contents{
+  height:2000px; 
+}
+.contents p{
+  text-align: center;
+}
 
+.contents h4{
+  text-align: center;
+  font-size: 45px;
+}
 
+.contents a{
+  background:linear-gradient(transparent 70%, #00bbdd 0%);
 
+}
 @media screen and (max-width: 480px) { /*スマホ用　ウィンドウ幅が480px以下の場合に適用*/
 
 
