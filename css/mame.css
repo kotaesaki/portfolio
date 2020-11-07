@@ -515,9 +515,10 @@ h2{
 }
 
 figure{
-  margin: -1% 0;
+  margin: 0 auto;
   float: left;
   overflow: hidden;
+  position: relative;
 
 }
 
@@ -571,37 +572,22 @@ figure p {
 }
 
 
-
-
-
-
-
 figure.effect-bubba {
 }
 
 figure.effect-bubba img {
   -webkit-transition: opacity 0.35s;
   transition: opacity 0.35s;
-
-
+  width: 85%;
+ 
 }
 
 figure.effect-bubba:hover img {
   opacity: 0.4;
+
 }
 
-figure.effect-bubba figcaption::before,
-figure.effect-bubba figcaption::after {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  bottom: 30px;
-  left: 30px;
-  content: '';
-  opacity: 0;
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-}
+
 
 figure.effect-bubba figcaption::before {
   border-top: 1px solid #fff;
