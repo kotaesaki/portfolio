@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>KOTA ESAKI / Portfolio site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" user-scalable=no>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="format-detection" content="telephone=no,address=no,email=no">
+	<link rel="canonical" href="URL">
+
+	<link rel="icon" href="img/favicon.ico">
+	<link rel="apple-touch-icon" href="../img/favicon.ico" sizes="180x180">
+	<link rel="icon" type="image/png" href="../img/favicon.ico" sizes="192x192">
+	<link rel="stylesheet" type="text/css" href="../css/mame.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+</head>
+<body>
+	<div id="wrapper">
+	<div class="cursor"></div>
+  	<div class="follower"></div>
+
+	<!-homeボタン ->
+	<h1 class="logo">
+		<a href="../index.html"><img src="../img/favicon.ico"></a>
+	</h1>
+
+
+
+	<!- 右上のハンバーガーメニュー　->
+	<header class = "nav" >
+		<nav class="global-nav">
+		<ul class="global-nav-list">
+			<li class="global-nav-item"><a href="../index.html">HOME</a></li>
+			<li class="global-nav-item"><a href="../index.html#about">ABOUT</a></li>
+			<li class="global-nav-item"><a href="../index.html#portfolio">PORTFOLIO</a></li>
+			<li class="global-nav-item"><a href="../index.html#contact">CONTACT</a></li>
+		</ul>
+		</nav>
+
+		<!- 3本線 ->
+		<div class="hamburger" id="js-hamburger">
+			<span class="hamburger__line hamburger__line--1"></span>
+    		<span class="hamburger__line hamburger__line--2"></span>
+    		<span class="hamburger__line hamburger__line--3"></span>
+
+		</div>
+		
+	</header>
+
+ 	<div id="page-top"><a href="#"></a></div>
+	
+
+
+
+	<section class="contents" class="pages">
+		<div id="about-inner">
+		<img src="../img/studytech.png">
+		<h3>STUDY TECH</h3>
+		<p><a href="http://studytech.herokuapp.com/" target="_blank">Demo</a></p>
+		<p>初学者エンジニアのための学重管理サービス</p>
+		<h4>開発環境</h4>
+		<p>
+			HTML/CSS(bootstrap)<br>
+			Laravel<br>
+			MySQL<br>
+			Nginx<br>
+			Docker<br>
+			Heroku<br>
+
+		</p>
+		<h4>機能</h4>
+		<p>
+			LaravelやDocker環境の学習のために開発したWEBサービスです。<br>
+			ユーザーが新規登録、ログインをして学習を記録することができます。<br>
+			また、投稿した内容を編集、削除できる<b>CRUD機能</b>や、<br>
+			記録した内容を<b>Twitterに投稿できる機能</b>も実装しました。<br>
+			今後は、実務レベルでもこれらの技術を活用することを考えています。
+		</p>
+		</div>
+	</section>
+
+
+	<footer id="global-footer" class="pages">
+		<div id="global-footer-container">
+		<p>FOLLOW ME!</p>
+		<ul>
+			<li><a href="https://www.facebook.com/profile.php?id=100008296080637" target="_blank">FACEBOOK</a></li> 
+			<li><a href="https://github.com/kotaesaki" target="_blank">GITHUB</a></li>
+		</ul>
+		</div>
+		<div id="global-footer-info">
+			<p>COPYRIGHT ©︎ KOTA ESAKI</p>
+			
+		</div>
+		
+
+		
+	</footer>
+
+</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<script>
+		function toggleNav() {
+  		var body = document.body;
+  		var hamburger = document.getElementById('js-hamburger');
+  		var blackBg = document.getElementById('js-black-bg');
+
+  		hamburger.addEventListener('click', function() {
+    	body.classList.toggle('nav-open');
+  		});
+
+		}
+		toggleNav();
+	</script>
+	<script type="text/javascript" src="../js/pagetop.js"></script>
+	<script type="text/javascript" src="../js/particles.min.js"></script>
+	<script type="text/javascript" src="../js/set.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+	<script type="text/javascript" src="../js/fadein.js"></script>
+	<script type="text/javascript" src="../js/cursor.js"></script>
+
+
+</body>
+</html>
